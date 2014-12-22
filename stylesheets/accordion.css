@@ -1,0 +1,26 @@
+.accordion {
+  margin: 50px;
+  background: #D7F5DF;
+  border-radius: 10px; }
+  .accordion dt.accordion__title, .accordion dd.accordion__content {
+    padding: 10px;
+    border: 1px solid grey; }
+    .accordion dt.accordion__title:last-of-type, .accordion dd.accordion__content:last-of-type {
+      border-bottom: 1px solid grey; }
+    .accordion dt.accordion__title a.accordion__title_link, .accordion dd.accordion__content a.accordion__title_link {
+      display: block;
+      color: black;
+      font-weight: bold;
+      text-decoration: none; }
+  .accordion dt.accordion__title {
+    border-radius: 10px; }
+  .accordion dd.accordion__content {
+    border-top: 0;
+    margin: 0;
+    font-size: 12px; }
+    .accordion dd.accordion__content:last-of-type {
+      border-top: 1px solid grey;
+      position: relative;
+      top: -1px; }
+
+/*# sourceMappingURL=accordion.css.map */

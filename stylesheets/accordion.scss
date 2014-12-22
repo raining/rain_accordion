@@ -1,0 +1,93 @@
+.accordion {
+  margin: 0 auto;
+  width: 600px;
+  background: #D7F5DF;
+  border-radius: 10px;
+  border: 1px solid grey;
+  dt.accordion__title, dd.accordion__content {
+    padding: 10px;
+    &:last-of-type {
+    }
+    a.accordion__title_link {
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 16px;
+      font-family: Arial, sans-serif;
+    }
+  }
+
+  dt.accordion__title {
+    border-radius: 10px;
+    border: 1px solid #608054;
+    background: #c2f234;
+
+    .arrow {
+//      position: relative;
+//      float: right;
+//      top: -18px;
+      &.arrow_top {
+        position: relative;
+        float: right;
+        top: -18px;
+        &:before {
+          width: 0;
+          height: 0;
+          content: "";
+          border-right: 18px solid transparent;
+          border-left: 18px solid transparent;
+          border-top: 0px solid transparent;
+          border-bottom: 18px solid #006400;
+        }
+
+        &:after {
+          position: relative;
+          left: -36px;
+          top: 2px;
+          width: 0;
+          height: 0;
+          content: "";
+          border-right: 18px solid transparent;
+          border-left: 18px solid transparent;
+          border-top: 0px solid transparent;
+          border-bottom: 18px solid #c2f234;
+        }
+      }
+      &.arrow_bottom {
+        position: relative;
+        float: right;
+        top: 19px;
+        &:before {
+          width: 0;
+          height: 0;
+          content: "";
+          border-right: 18px solid transparent;
+          border-left: 18px solid transparent;
+          border-top: 18px solid #006400;
+          border-bottom: 0px solid transparent;
+        }
+
+        &:after {
+          position: relative;
+          left: -36px;
+          top: -2px;
+          width: 0;
+          height: 0;
+          content: "";
+          border-right: 18px solid transparent;
+          border-left: 18px solid transparent;
+          border-top: 18px solid #c2f234;
+          border-bottom: 0px solid transparent;
+        }
+      }
+    }
+  }
+
+  dd.accordion__content {
+    border-top: 0;
+    margin: 0;
+    font-size: 12px;
+    &:last-of-type {
+    }
+  }
+}

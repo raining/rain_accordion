@@ -1,11 +1,18 @@
 .accordion__content .img {
-  background: url("../images/1.png") 32% 100% no-repeat;
   width: 100px;
-  background-size: cover;
   height: 100px;
   border: 2px solid yellowgreen;
   border-radius: 50%;
   display: inline-block; }
+  .accordion__content .img._1 {
+    background: url("../images/1.png") 32% 100% no-repeat;
+    background-size: cover; }
+  .accordion__content .img._2 {
+    background: url("../images/2.png") 32% 100% no-repeat;
+    background-size: cover; }
+  .accordion__content .img._3 {
+    background: url("../images/3.png") 32% 100% no-repeat;
+    background-size: cover; }
 .accordion__content .text {
   display: inline-block;
   width: 93%;

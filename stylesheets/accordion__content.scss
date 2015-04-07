@@ -5,6 +5,8 @@
     border: 2px solid yellowgreen;
     border-radius: 50%;
     display: inline-block;
+    float: left;
+    margin-right: 20px;
     &._1 {
       background: url('../images/1.png') 32% 100% no-repeat;
       background-size: cover;
@@ -20,7 +22,6 @@
   }
 
   .text {
-    display: inline-block;
     width: 93%;
     font-family: Arial, sans-serif;
     font-size: 16px;
